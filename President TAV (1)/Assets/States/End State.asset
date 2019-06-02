@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af0708537def463fb1e704210e9c75e, type: 3}
+  m_Name: End State
+  m_EditorClassIdentifier: 
+  initialStateText: This is the end of the game
+  suspicionValue: 0
+  bloodGatheringState: 0
+  bloodValue: 0
+  bloodGatheringButtonMessage: 
+  nextStates:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 0
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 0
+    _keyValues: []
+    _keys: []
+    _values: []
+  scenarioImage: {fileID: 21300000, guid: 85baeb0505d2be84e83c30d9d884b4f7, type: 3}
+  questionText: 
+  character: {fileID: 11400000, guid: d9e6d31ea33efa94db984f90a710ebc5, type: 2}

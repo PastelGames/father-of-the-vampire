@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af0708537def463fb1e704210e9c75e, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  initialStateText: 'hi welcome to the game prototype, are you having a good day?
+
+
+    THIS IS JUST A PROTOTYPE'
+  suspicionValue: 2
+  bloodGatheringState: 1
+  bloodValue: 2
+  bloodGatheringButtonMessage: pick up blood vial
+  nextStates:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues:
+    - yes
+    - maybe
+    - no
+    _keys:
+    - yes
+    - maybe
+    - no
+    _values:
+    - {fileID: 11400000, guid: 477f362a909d44a70be2533d93daaa02, type: 2}
+    - {fileID: 11400000, guid: 82e514dc28c4c28448dace3d37804d31, type: 2}
+    - {fileID: 11400000, guid: cf19e5c77e3a243399bf1a3a74d65185, type: 2}
+  scenarioImage: {fileID: 21300000, guid: 50f0094846832ee408e18b9e691d1536, type: 3}
+  questionText: what ever shall i do
+  character: {fileID: 11400000, guid: f5fa744f5aff60d4a8e7aafcc96cdd3f, type: 2}
